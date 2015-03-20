@@ -520,6 +520,7 @@ input:active, textarea:active { outline:none; }
     margin: 72px 0 0 0;
     position: relative;
     border: 1px solid #ccc;
+    background: #fff;
 }
 
 .cost-block .r-button {
