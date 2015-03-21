@@ -31,8 +31,18 @@ section {
 
 .logo {
     float: left;
-    margin: 20px 70px 0 0;
+    margin: 0px 70px 0 0;
 }
+
+.description{
+    width: 270px;
+    font-family: PFSSRegular;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 10px;
+}
+
 
 nav {
     float: left;
@@ -73,14 +83,15 @@ nav {
 }
 
 .big-photo-blue-block {
-    width: 566px;
-    height: 208px;
-    background: #1d1d33;
+    width: 590px;
+    height: 260px;
+    background: url(../img/top.png) no-repeat;
     border-radius: 30px;
     color: #fff;
     font-family: PFSSBold;
     font-size: 30px;
     position: relative;
+    padding: 45px 20px 10px 280px;
 }
 
 .big-photo-blue-block s {
@@ -92,6 +103,10 @@ nav {
 .big-photo-blue-block img {
     float: left;
     margin: 16px 0 0 47px;
+}
+.big-photo-blue-block button{
+height: 50px;
+    margin-top: 5px;
 }
 
 .big-photo-header {
@@ -201,6 +216,12 @@ table {
     float: left;
     line-height: 20px;
 }
+.numbers-block-text p{
+    line-height: 20px;
+    padding-top: 20px;
+    text-align: center
+}
+
 
 .img-numbers-block {
     float: left;
@@ -208,7 +229,7 @@ table {
 }
 
 .effective {
-    height: 712px;
+    height: 420px;
     padding: 62px 0 0 0;
     background: #f2f3f3;
 }
@@ -224,7 +245,7 @@ table {
 
 .effective-block {
     float: left;
-    height: 200px;
+    height: 30px;
     margin: 67px 0 0 0;
 }
 
@@ -246,10 +267,10 @@ table {
 
 .effective-block-header {
     font-family: PFSSBold;
-    font-size: 18px;
+    font-size: 16px;
     color: #333;
     line-height: 21px;
-    width: 285px;
+    width: 300px;
     text-transform: uppercase;
 }
 
@@ -258,7 +279,7 @@ table {
 }
 
 .middle-b-2 {
-    margin-left: 105px;
+    margin-left: 130px;
 }
 
 .action {
@@ -268,9 +289,10 @@ table {
 }
 
 .action-image {
-    width: 307px;
-    height: 232px;
-    background-image: url(../img/vitamines2.png);
+    width: 251px;
+    height: 253px;
+    background-image: url(../img/6flakonov-big.png);
+    background-repeat: no-repeat;
     position: relative;
     margin: 93px 0 0 118px;
 }
@@ -343,7 +365,7 @@ table {
 }
 
 .action-form {
-    height: 487px;
+    height: 478px;
     width: 408px;
     background: #fff;
     border-radius: 5px;
@@ -393,7 +415,9 @@ table {
 .phone {
     background-image: url(../img/form2.png);
 }
-
+.email {
+    background-image: url(../img/form5.png);
+}
 .sel {
     background-image: url(../img/form3.png);
 }
@@ -406,6 +430,7 @@ table {
     background: #fb6362;
     border-radius: 5px;
     border-bottom: 3px solid #b83a39;
+ 
 }
 
 .r-button:hover {
@@ -434,8 +459,9 @@ table {
 }
 
 .action-button {
-    margin-left: 105px;
+    margin: 10px auto;
     padding: 13px;
+    width: 329px;
 }
 
 input, textarea { outline:none; }
@@ -525,10 +551,11 @@ input:active, textarea:active { outline:none; }
 
 .cost-block .r-button {
     position: absolute;
-    bottom: 22px;
-    left: 91px;
-    font-size: 15px;
+    bottom: -10px;
+    left: 25px;
+    font-size: 18px;
     padding: 15px 46px;
+    width: 329px;
 }
 
 .cost-block-top-part {
@@ -579,12 +606,20 @@ input:active, textarea:active { outline:none; }
     color: #666;
     line-height: 19px;
     text-align: center;
-    padding: 20px 0 0 0;
+    padding: 0px 10px 10px 0;
     background: #fff;
     height: 178px;
-    margin-top: 45px;
 }
-
+.cost-block-text img{
+    clear: none;
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cost-block-text p{
+    line-height: 22px;
+}
 .cost-block-text span {
     color: #ff6666;
 }
@@ -651,8 +686,9 @@ input:active, textarea:active { outline:none; }
     float: right;
     margin: 36px 19px 0 0;
     line-height: 19px;
-    padding: 19px 0 0 51px;
-    background-image: url(../img/blue_block.png);
+    padding: 25px 0 0 71px;
+    background-image: url(../img/molecula.png);
+    background-repeat: no-repeat;
 }
 
 .medicine-block-blue-text {
@@ -684,11 +720,11 @@ input:active, textarea:active { outline:none; }
 }
 
 .doctor {
-    width: 417px;
-    height: 576px;
+    width: 476px;
+    height: 623px;
     position: absolute;
-    margin: 99px 0 0 -81px;
-    background-image: url(../img/doctor.png);
+    margin: 53px 0 0 -181px;
+    background-image: url(../img/doc.png);
 }
 
 .efficiency {
@@ -773,13 +809,13 @@ input:active, textarea:active { outline:none; }
 }
 
 .questions {
-    height: 601px;
+    height: 681px;
     background-image: url(../img/bg.jpg);
 }
 
 .questions .action-form {
     margin: 71px 14px 0 0;
-    height: 508px;
+    height: 578px;
 }
 
 .questions .action-form .r-button {
@@ -1040,4 +1076,49 @@ dialog, .reveal-modal {
 
 .menu dd {
     margin: 37px 0 0 0;
+}
+.middle34 {
+    margin-left: -85px;
+}
+
+.email {
+    
+}
+
+.button-n1 {
+   width: 329px;
+}
+
+.linedo2 {
+    padding-top: 20px;
+}
+
+.linedo1 {
+    margin-bottom: 50px;
+}
+
+.hr {
+    height: 25px; width: 20px;
+    display: block;
+    background: red;
+}
+
+.img2 {
+    margin-top: 40px;
+}
+
+.logotip {
+    float: left;
+}
+
+.footer-button {
+    
+   margin: 0 auto;
+    left: -74px;
+}
+
+
+
+.side2 {
+        height: 578px;
 }
